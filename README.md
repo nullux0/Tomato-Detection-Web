@@ -1,10 +1,16 @@
 # 🍅 실시간 웹 기반 토마토 객체 탐지 시스템
-1. 프로젝트 소개본 프로젝트는 과수원 및 농가 등 다양한 환경에서 범용적으로 사용할 수 있는 다품종 농작물(사과, 토마토, 포도) 객체 탐지 시스템입니다.
- YOLOv8 모델을 기반으로 학습을 진행하였으며, ONNX 형식으로 변환하여 추론 속도를 최적화했습니다.(이곳에 데모 실행 화면 캡처 이미지를 1~2장 드래그 앤 드롭으로 추가하세요. 깃허브 웹 화면에서 수정 모드로 들어가 이미지를 끌어다 놓으면 자동으로 코드가 생성됩니다.)
+## 1.개요
+프로젝트 소개본 프로젝트는 과수원에서의 토마토 객체 탐지 시스템입니다.
+YOLOv8 모델을 기반으로 학습을 진행하였으며, ONNX 형식으로 변환하여 추론 속도를 최적화했습니다.
+(이곳에 데모 실행 화면 캡처 이미지를 1~2장 드래그 앤 드롭으로 추가하세요. 깃허브 웹 화면에서 수정 모드로 들어가 이미지를 끌어다 놓으면 자동으로 코드가 생성됩니다.)
 
-2. 개발 환경 및 의존성 (Environment)OS: Windows / Mac / Linux (Cross-platform)Language: Python 3.9+Framework: Ultralytics (YOLOv8), Streamlit주요 패키지: requirements.txt 참조
+## 2. 개발 환경 및 의존성 
+- OS: Windows / Mac / Linux (Cross-platform)
+- Language: Python 3.9+
+- Framework: Ultralytics (YOLOv8),Streamlit
+- 주요 패키지: requirements.txt 참조
 
-3. 상세 설치 및 실행 방법 (How to Run)
+4. 상세 설치 및 실행 방법 (How to Run)
     3-1. 
     모델 가중치 파일 다운로드GitHub 용량 제한(100MB)으로 인해 학습된 모델 파일은 외부 클라우드에 업로드하였습니다. 아래 링크에서 모델을 다운로드하여 프로젝트 최상위 폴더(app.py와 같은 위치)에 넣어주세요.[🔗 YOLOv8 ONNX 모델 가중치 다운로드 링크] : https://drive.google.com/file/d/1a5u2VST4r9XnzAPbX3bekNC_FiFmD9CX/view?usp=drive_link 
     3-2. 
