@@ -6,7 +6,7 @@
 
 3. 상세 설치 및 실행 방법 (How to Run)
     3-1. 
-    모델 가중치 파일 다운로드GitHub 용량 제한(100MB)으로 인해 학습된 모델 파일은 외부 클라우드에 업로드하였습니다. 아래 링크에서 모델을 다운로드하여 프로젝트 최상위 폴더(app.py와 같은 위치)에 넣어주세요.[🔗 YOLOv8 ONNX 모델 가중치 다운로드 링크] : https://drive.google.com/file/d/1a5u2VST4r9XnzAPbX3bekNC_FiFmD9CX/viewusp=drive_link 
+    모델 가중치 파일 다운로드GitHub 용량 제한(100MB)으로 인해 학습된 모델 파일은 외부 클라우드에 업로드하였습니다. 아래 링크에서 모델을 다운로드하여 프로젝트 최상위 폴더(app.py와 같은 위치)에 넣어주세요.[🔗 YOLOv8 ONNX 모델 가중치 다운로드 링크] : https://drive.google.com/file/d/1a5u2VST4r9XnzAPbX3bekNC_FiFmD9CX/view?usp=drive_link 
     3-2. 
     로컬 환경 실행 방법터미널을 열고 아래 명령어를 순서대로 실행합니다.
 
